@@ -1,0 +1,221 @@
+.div-all-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(191, 190, 190);
+  margin: 0;
+}
+
+.stats {
+  color: rgb(218, 108, 12);
+  cursor: pointer;
+}
+
+.info {
+  cursor: pointer; 
+}
+
+.div-shots-on {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.bright {
+font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: 100;
+ color: white;
+} 
+
+
+
+.deem {
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: 100;
+}
+
+.div-equalizer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  border-radius: 8px;
+}
+
+.wing-one {
+  display: flex;
+  flex: 1;
+  background-color: rgb(52, 52, 52);
+  height: 20px;
+  justify-content: end;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.wing-two {
+  display: flex;
+  flex: 1;
+  background-color: rgb(52, 52, 52);
+  height: 20px;
+  justify-content: start; 
+  border: none;
+  border-radius: 8px;
+}
+
+
+.first-right {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.65;  
+}
+
+.first-left {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.35;
+}
+
+.second-right {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.73;
+}
+
+.second-left {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.27;
+}
+
+
+
+.stats:hover {
+  color: rgb(201, 197, 197);
+  text-decoration: underline;
+}
+
+.info:hover {
+  color: rgb(218, 108, 12);
+  text-decoration: underline;
+}
+
+.third-left {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.82;
+}
+
+.third-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.18;
+}
+
+.forth-left {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.47;
+}
+
+.forth-right {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.53;
+}
+
+.fifth-left {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.6;
+}
+
+.fifth-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.4;
+}
+
+.sixth-left {
+  background-color:  rgb(218, 108, 12);
+  flex: 1;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.sixth-right {
+  background-color: rgb(52, 52, 52);
+  flex: 0.5; 
+}
+
+
+.seventh-left {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.55;
+}
+
+.seventh-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.45; 
+}
+
+.eighth-left {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.6;
+}
+
+.eighth-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.4; 
+}
+
+.ninth-left {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.45;
+}
+
+.ninth-right {
+  background-color:  rgb(218, 108, 12);
+  flex: 0.55;
+}
+
+
+.tenth-left,
+.tenth-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.5;
+}
+
+.eleventh-left {
+  background-color:  rgb(52, 52, 52);
+  flex: 0.45;
+}
+
+.eleventh-right {
+  background-color:  rgb(218, 108, 12);
+  flex: 1;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.twelveth-left,
+.twelveth-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.5;
+}
+
+.thirtenth-left,
+.thirtenth-right {
+  background-color:  rgb(186, 184, 184);
+  flex: 0.5;
+}
+
+.div-conclude{
+  margin-top: 20px;
+}
+
+.conclude {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: white;
+}

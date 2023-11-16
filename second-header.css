@@ -1,0 +1,96 @@
+.div-second-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-logo-premier {
+  display: flex;
+  align-items: center;
+}
+
+.div-watch-pitch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-england {
+  display: flex;
+  align-items: center;
+}
+
+.div-sec-header-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 40px;
+}
+
+.div-watch {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+  
+}
+
+.div-footballpitch {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.england-flag {
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.premier-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 130px;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+
+.england-text {
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(175, 174, 174);
+  margin: 0;
+  cursor: pointer;
+}
+
+.watch {
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.footballpitch {
+  object-fit: cover;
+  object-position: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+
+}
+
+
+.premier-text:hover {
+  color: rgb(175, 174, 174);
+  text-decoration: underline;
+}
+
+  .england-text:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
